@@ -9,8 +9,6 @@ data = {'q': song_name}
 url = "http://search.azlyrics.com/search.php?" + urllib.urlencode(data)
 
 
-
-
 headers = { 'Accept':'*/*',
 			'Accept-Encoding':'gzip, deflate, sdch',
 			'Accept-Language':'en-US,en;q=0.8',
