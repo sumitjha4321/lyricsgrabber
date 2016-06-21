@@ -11,11 +11,6 @@ url = "http://search.azlyrics.com/search.php?" + urllib.urlencode(data)
 
 
 
-proxies = {
-	"http":"http://heed:ravi@172.31.103.29:3128",
-	"https":"https://heed:ravi@172.31.103.29:3128"
-	}
-
 headers = { 'Accept':'*/*',
 			'Accept-Encoding':'gzip, deflate, sdch',
 			'Accept-Language':'en-US,en;q=0.8',
